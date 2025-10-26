@@ -62,4 +62,16 @@ dependencies {
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+
+    // --- Networking ---
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.moshi)
+
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
+
+// --- JSON parsing ---
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+    implementation(libs.kotlinx.serialization)
 }
